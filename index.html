@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- ==================== Loading Animation section ====================== -->
+
+    <div id="preloader" class="d-none">
+        <img src="./img/rocketv2.gif" alt="">
+        </div>
+
+    <!-- ===================== Search section ===================== -->
+    <section class="search-section">
+        <h1 class="text-center"> <span class="text-warning"> Book </span> Library </h1>
+        <div class="container">
+        <div class="input-group rounded w-auto m-4 ">
+            <input type="search" class="form-control rounded" id="book-search" placeholder="Search here" aria-label="Search"
+              aria-describedby="search-addon" />
+            <span class="input-group-text border-0 bg-success" onclick="searchNow(searchText.value)" id="search-addon">
+             <button class="btn rounded text-light" > <i class="fas fa-search "></i> Search </button>
+            </span>
+          </div>
+        </div>
+    </section>
+
+    <!-- ==================Search result count section ================ -->
+    <section class="search-result-count-section">
+        <div class="container text-center" id="search-result-count">
+
+        </div>
+
+    </section>
+
+    <!-- ====================== Books Display Section ====================== -->
+    <section class="search-result-view-section container">
+
+        <div class="container row justify-content-center" id="books-div">
+
+        </div>
+
+    </section>
+    
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>

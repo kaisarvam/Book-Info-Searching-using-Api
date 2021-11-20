@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(253, 236, 188);
+}
+
+#preloader{
+    position:fixed;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding-top: 40vh;
+    z-index: 9999;
+    background-color: #FCFAFC;
+  }
+
+.image-style{
+    height:500px; 
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    background-image: url("/img/noPreview-L.jpg");
+    background-repeat: no-repeat;
+}
+.author{
+    font-size: 16px;
+    font-weight: bold;
+    margin: 15px;
+}
+.publisher{
+    font-size: 16px;
+    font-weight: bold;
+    margin: 15px;
+}
+.publish-date{
+    font-size: 16px;
+    font-weight: bold;
+    margin: 1px
+}
